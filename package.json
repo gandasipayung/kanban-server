@@ -1,0 +1,35 @@
+{
+  "name": "kanban-1",
+  "version": "1.0.0",
+  "description": "Nama database wajib: kanban-beta-fox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gandasipayung/kanban-1.git"
+  },
+  "keywords": [],
+  "author": "Ganda Sipayung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gandasipayung/kanban-1/issues"
+  },
+  "homepage": "https://github.com/gandasipayung/kanban-1#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "google-auth-library": "^5.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^7.18.1",
+    "sequelize": "^5.21.4",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
