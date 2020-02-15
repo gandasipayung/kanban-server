@@ -8,9 +8,9 @@ router.get('/:projectId', TaskController.findAll)
 router.post('/', TaskController.createTask)
 
 // need authorization here
-router.patch('/:id', authorization, TaskController.changeCategory)
-router.put('/:id', authorization, TaskController.updateTask)
-router.delete('/:id', authorization, TaskController.deleteTask)
+router.patch('/:id', TaskController.changeCategory)
+router.put('/:id', TaskController.updateTask)
+router.delete('/:id', TaskController.deleteTask)
 
 
 module.exports = router
